@@ -6,10 +6,10 @@ function takeANumber ( katzDeli, newPersonName ) {
 }
 
 function nowServing ( katzDeli ) {//this function will state who the first person in line 
-  var i = 0;
-  while ( i < katzDeli.length ) {
-    i++;
-  }
+  // var i = 0;
+  // while ( i < katzDeli.length ) {
+  //   i++;
+  // }
   if (katzDeli.length === 0) {
   return "There is nobody waiting to be served!"
   }
