@@ -6,7 +6,10 @@ function takeANumber ( katzDeli, newPersonName ) {
 }
 
 function takeANumber ( katzDeli ) {
-  return (`Welcome, you are ticket number ${katzDeli.length}`);
+  var ticketLine = 0;
+  ticketLine++;
+  katzDeli.push(ticketLine);
+  return (`Welcome, you are ticket number ${katzDeli}`);
 }
 
 function nowServing ( katzDeli ) {//this function will state who the first person in line 
